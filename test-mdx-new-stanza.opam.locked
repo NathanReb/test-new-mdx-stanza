@@ -77,7 +77,7 @@ pin-depends: [
   ["lwt.5.4.0" "https://github.com/ocsigen/lwt/archive/5.4.0.zip"]
   [
     "mdx.1.7.0"
-    "git+file:///home/nathan/code/mdx#978ea796ac7be758319b6f47c4355d7d31429b54"
+    "git+https://github.com/voodoos/mdx.git#e35838c7459d1546ec42eaa39f9a5ab509802ecd"
   ]
   [
     "mmap.1.1.0"
@@ -134,10 +134,6 @@ pin-depends: [
   ]
 ]
 x-opam-monorepo-duniverse-dirs: [
-  [
-    "git+file:///home/nathan/code/mdx#978ea796ac7be758319b6f47c4355d7d31429b54"
-    "mdx"
-  ]
   [
     "https://github.com/OCamlPro/ocplib-endian/archive/1.1.tar.gz"
     "ocplib-endian"
@@ -298,6 +294,10 @@ x-opam-monorepo-duniverse-dirs: [
       "sha256=24b2f324ea91cff98bb8790a6746ccce3173bac5f57cb457156e5c50a0467397"
       "sha512=a1936198e6e563ed703c8cd9d481394660fb25e9e700ea481e5326536c2734d9356c99750ae3ef8a55614776cc040c05cbcf2e03f609ab1f78c34aab0c5de830"
     ]
+  ]
+  [
+    "git+https://github.com/voodoos/mdx.git#e35838c7459d1546ec42eaa39f9a5ab509802ecd"
+    "mdx"
   ]
 ]
 x-opam-monorepo-root-packages: ["test-mdx-new-stanza"]
